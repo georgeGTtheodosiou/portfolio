@@ -5,24 +5,22 @@
     box-sizing: border-box;
 }
 
+/* General body styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
     overflow-x: hidden;
-    background-image: url('https://benbrosltd.com.ng/wp-content/uploads/2017/06/16.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Soft gradient background */
 }
 
 /* Header styles */
 header {
-    background-color: rgba(52, 58, 64, 0.8);
+    background: rgba(0, 123, 255, 0.9); /* Semi-transparent blue background */
     color: #fff;
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -82,9 +80,28 @@ section {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+section p {
+    color: #ddd;
+}
+
+section a {
+    color: #00C6FF;
+    text-decoration: underline;
+}
+
+section a:hover {
+    color: #007BFF;
+}
+
 /* Footer styles */
 footer {
-    background-color: rgba(52, 58, 64, 0.8);
+    background: rgba(52, 58, 64, 0.8);
     color: #fff;
     text-align: center;
     padding: 1rem 0;
