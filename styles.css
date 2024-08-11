@@ -34,11 +34,15 @@ header h1 {
     margin: 0 auto;
 }
 
+/* Navigation styles */
+nav {
+    margin-top: 1rem;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
     padding: 0;
 }
 
@@ -53,6 +57,7 @@ nav ul li a {
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 5px;
+    text-align: center;
 }
 
 nav ul li a:hover {
@@ -68,7 +73,7 @@ main {
     background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    position: relative;
+    text-align: center; /* Center text in main section */
 }
 
 /* Section styles */
@@ -78,6 +83,7 @@ section {
     background-color: rgba(52, 58, 64, 0.8); /* Grey with transparency */
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text in sections */
 }
 
 section h2 {
@@ -88,6 +94,7 @@ section h2 {
 
 section p {
     color: #ddd;
+    margin-bottom: 1rem;
 }
 
 section a {
